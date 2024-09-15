@@ -16,7 +16,7 @@ This project leverages machine learning to predict county-level obesity rates us
 The goal is to offer insights for policymakers on the impact of these determinants and recommend data-driven public health strategies.
 
 ## **Repository Structure**
-- **`code/`**: Contains Python scripts for:
+- **`Ma_Stage5_code/`**: Contains Python scripts for:
   - Data preprocessing
   - Exploratory Data Analysis (EDA)
   - Model training and evaluation
@@ -24,6 +24,7 @@ The goal is to offer insights for policymakers on the impact of these determinan
   - Methodology
   - Results
   - Policy recommendations
+- **`Ma_Stage5_slide.pdf`**: The presentation of project 
 
 ## **Data**
 - **Source**: The U.S. CDC's Diabetes Surveillance System ([link](https://gis.cdc.gov/grasp/diabetes/DiabetesAtlas.html))
@@ -41,27 +42,8 @@ Several machine learning models were applied to predict obesity rates:
 ## **Key Findings**
 The **Support Vector Regression (SVR)** model outperformed others, achieving the best predictive performance with an R-squared value above 0.5 across both training and test datasets.
 
-## **Usage Instructions**
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Yuhan-Ma/Obesity-ML-Analysis.git
-   ```
-2. **Install required dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run the analysis**:
-   ```bash
-   python analysis.py
    ```
 
-## **Dependencies**
-- Python 3.x
-- pandas
-- scikit-learn
-- xgboost
-- matplotlib
-- seaborn
 
 ## **Results & Policy Recommendations**
 The analysis revealed that access to healthcare, socioeconomic factors, and neighborhood environments are critical determinants of obesity. Based on these findings, several policy recommendations were made, such as:
