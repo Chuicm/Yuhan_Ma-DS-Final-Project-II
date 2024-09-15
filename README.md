@@ -42,9 +42,7 @@ Several machine learning models were applied to predict obesity rates:
 ## **Key Findings**
 The **Support Vector Regression (SVR)** model outperformed others, achieving the best predictive performance with an R-squared value above 0.5 across both training and test datasets.
 
-   ```
-
-
+  
 ## **Results & Policy Recommendations**
 The analysis revealed that access to healthcare, socioeconomic factors, and neighborhood environments are critical determinants of obesity. Based on these findings, several policy recommendations were made, such as:
 - Promoting health education programs targeting high-risk communities
